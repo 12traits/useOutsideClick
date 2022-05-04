@@ -1,6 +1,6 @@
 {
-    "name": "useoutsideclick",
-    "version": "1.0.1",
+    "name": "@12traits/useoutsideclick",
+    "version": "1.0.2",
     "description": "",
     "main": "src/index.ts",
     "module": "src/index.ts",
