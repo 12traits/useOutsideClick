@@ -1,0 +1,39 @@
+{
+    "name": "useoutsideclick",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/12traits/useOutsideClick.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/12traits/useOutsideClick/issues"
+    },
+    "homepage": "https://github.com/12traits/useOutsideClick#readme",
+    "dependencies": {
+        "@testing-library/react-hooks": "^8.0.0",
+        "@types/react": "^18.0.8",
+        "jest": "^28.0.3",
+        "jest-environment-jsdom": "^28.0.2",
+        "react": "^18.1.0",
+        "react-dom": "^18.1.0",
+        "ts-jest": "^28.0.1",
+        "typescript": "^4.6.4"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.5.0",
+        "react-test-renderer": "^18.1.0"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.[jt]sx?$": "ts-jest"
+        },
+        "testEnvironment": "jsdom"
+    }
+}
