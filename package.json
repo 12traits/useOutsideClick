@@ -1,6 +1,6 @@
 {
     "name": "@12traits/useoutsideclick",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "",
     "main": "src/index.ts",
     "module": "src/index.ts",
@@ -19,11 +19,11 @@
     "homepage": "https://github.com/12traits/useOutsideClick#readme",
     "dependencies": {
         "@testing-library/react-hooks": "^8.0.0",
-        "@types/react": "^18.0.8",
+        "@types/react": "^17.0.40",
         "jest": "^28.0.3",
         "jest-environment-jsdom": "^28.0.2",
-        "react": "^18.1.0",
-        "react-dom": "^18.1.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
         "ts-jest": "^28.0.1",
         "typescript": "4.5.5"
     },
