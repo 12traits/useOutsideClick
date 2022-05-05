@@ -5,7 +5,7 @@ describe('Test useOutsideClick hook', () => {
   it('useOutsideClick handler should be called one time after mousedown on document', () => {
     const element = document.createElement('div');
     const handler = jest.fn();
-    renderHook(() => useOutsideClick({ current: element }, [], handler));
+    renderHook(() => useOutsideClick({ current: element }, handler, []));
     expect(handler).not.toHaveBeenCalled();
     document.dispatchEvent(new Event('mousedown'));
     expect(handler).toHaveBeenCalled();
@@ -16,7 +16,7 @@ describe('Test useOutsideClick hook', () => {
     const element1 = document.createElement('div');
     const handler = jest.fn();
     renderHook(() =>
-      useOutsideClick({ current: element }, [{ current: element1 }, { current: null }], handler)
+      useOutsideClick({ current: element }, handler, [{ current: element1 }, { current: null }])
     );
     expect(handler).not.toHaveBeenCalled();
     element1.dispatchEvent(new Event('mousedown'));
