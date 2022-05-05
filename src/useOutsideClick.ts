@@ -2,8 +2,8 @@ import { MutableRefObject, useEffect } from 'react';
 
 const useOutsideClick = (
     ref: MutableRefObject<any>,
-    include: MutableRefObject<any>[],
-    onClickOutside: () => void
+    onClickOutside: () => void,
+	include: MutableRefObject<any>[],
 ): void => {
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent): void => {
