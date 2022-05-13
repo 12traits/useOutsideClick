@@ -1,5 +1,5 @@
 import { renderHook } from '@testing-library/react-hooks';
-import useOutsideClick from './useOutsideClick';
+import useOutsideClick from './src/useOutsideClick';
 
 describe('Test useOutsideClick hook', () => {
   it('useOutsideClick handler should be called one time after mousedown on document', () => {
