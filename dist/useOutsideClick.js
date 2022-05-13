@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = require("react");
 var useOutsideClick = function (ref, onClickOutside, include) {
     if (include === void 0) { include = []; }
@@ -17,4 +17,4 @@ var useOutsideClick = function (ref, onClickOutside, include) {
         };
     }, [ref, onClickOutside, include]);
 };
-exports["default"] = useOutsideClick;
+exports.default = useOutsideClick;
